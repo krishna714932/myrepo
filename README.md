@@ -1,3 +1,3 @@
 dummy repository
  
- this is dummy changes
+ it is dummy changes

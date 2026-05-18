@@ -1,0 +1,306 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Free Education</title>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @keyframes fadeIn {
+          from { opacity: 0; }
+          to { opacity: 1; }
+        }
+        body {
+          background-color: #121212;
+          font-family: 'Roboto', sans-serif;
+          color: #fff;
+          padding: 20px;
+          animation: fadeIn 1s ease-in-out;
+        }
+        h1 {
+          text-align: center;
+          font-size: 2em;
+          margin-bottom: 20px;
+          color: #db2e54;
+        }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+        }
+        th, td {
+          text-align: left;
+          padding: 10px;
+          border: 1px solid #333;
+        }
+        .generate-btn {
+          background-color: #1a73e8;
+          color: #fff;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+          border-radius: 20px;
+        }
+        .generate-btn:hover {
+          background-color: #125bcd;
+        }
+        /* Responsive Design */
+        @media only screen and (max-width: 600px) {
+          body {
+            padding: 10px;
+          }
+          h1 {
+            font-size: 1.5em;
+          }
+          th, td {
+            padding: 5px;
+          }
+          .generate-btn {
+            padding: 5px 10px;
+          }
+        }
+      </style>
+      <script>
+        async function generateAndOpenLink(chatId, buttonElement) {
+          const link = await fetchLink(chatId);
+          buttonElement.textContent = 'Join Group';
+          buttonElement.onclick = function() { window.open(link, '_blank'); };
+        }
+    
+        async function fetchLink(chatId) {
+          const response = await fetch(window.location.pathname, {
+            method: 'POST', 
+            body: JSON.stringify({chatId: chatId}), 
+            headers: {'Content-Type': 'application/json'}
+          });
+          const data = await response.json();
+          return data.link;
+        }
+      </script>
+    </head>
+    <body>
+      <h1>Piracy? what is that sarika ganesh narawade</h1>
+      <div style="text-align:center;margin-bottom:20px;">
+      <a href="https://tx.me/+JvlrEOuEifxiNGI1" style="color: #1a73e8;" target="_blank">
+      Join the main channel for new course upload notifications
+      </a>
+      </div>
+    
+      <table>
+        <thead>
+          <tr>
+            <th>Channels</th>
+            <th>abracadabra</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        <tr>
+          <td>Arpit Bhayani - The System Design Masterclass</td>
+          <td><button id="join-btn-1001868908220" class="generate-btn" onclick="generateAndOpenLink('1001868908220', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>AshokIT - Springboot and Microservices</td>
+          <td><button id="join-btn-1002442905872" class="generate-btn" onclick="generateAndOpenLink('1002442905872', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>be-pec.com - Data Science CT E-Learning Weekend April '2022 Batch</td>
+          <td><button id="join-btn-1001307640944" class="generate-btn" onclick="generateAndOpenLink('1001307640944', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>be-pec.com - Data Science/AI CT Program-Holistic Learning Approach!!!</td>
+          <td><button id="join-btn-1001695165800" class="generate-btn" onclick="generateAndOpenLink('1001695165800', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Bunch of Nerds (no offtopic allowed)</td>
+          <td><button id="join-btn-1002270009838" class="generate-btn" onclick="generateAndOpenLink('1002270009838', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Bunch of Retards(Offtopic Chats)</td>
+          <td><button id="join-btn-1002916298735" class="generate-btn" onclick="generateAndOpenLink('1002916298735', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>catking - CAT Intensive Online(All Exam)</td>
+          <td><button id="join-btn-1001926238473" class="generate-btn" onclick="generateAndOpenLink('1001926238473', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Coding Blocks - Java Master Course | Crux</td>
+          <td><button id="join-btn-1001613434863" class="generate-btn" onclick="generateAndOpenLink('1001613434863', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Durgasoft Courses</td>
+          <td><button id="join-btn-1001736144746" class="generate-btn" onclick="generateAndOpenLink('1001736144746', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Grow Data Skills - Fast Track Data Engineering Bootcamp(NooB 1.0 LIVE Batch)</td>
+          <td><button id="join-btn-1001963607844" class="generate-btn" onclick="generateAndOpenLink('1001963607844', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>IIB PCB (NEET)</td>
+          <td><button id="join-btn-1001654676010" class="generate-btn" onclick="generateAndOpenLink('1001654676010', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - A Job Ready Bootcamp in C++, DSA and IOT</td>
+          <td><button id="join-btn-1001852774648" class="generate-btn" onclick="generateAndOpenLink('1001852774648', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Be A DevOps Pro</td>
+          <td><button id="join-btn-1001688957954" class="generate-btn" onclick="generateAndOpenLink('1001688957954', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Big Data Masters</td>
+          <td><button id="join-btn-1001852587578" class="generate-btn" onclick="generateAndOpenLink('1001852587578', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Cyber Security Masters</td>
+          <td><button id="join-btn-1001986990429" class="generate-btn" onclick="generateAndOpenLink('1001986990429', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - DSA for FAANG preparation with Python and JavaScript</td>
+          <td><button id="join-btn-1001837359192" class="generate-btn" onclick="generateAndOpenLink('1001837359192', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Enterprise Java with Spring Boot</td>
+          <td><button id="join-btn-1001986532139" class="generate-btn" onclick="generateAndOpenLink('1001986532139', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Full Stack Blockchain Development</td>
+          <td><button id="join-btn-1001951569088" class="generate-btn" onclick="generateAndOpenLink('1001951569088', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Full Stack Data Analytics 2.0</td>
+          <td><button id="join-btn-1001372208197" class="generate-btn" onclick="generateAndOpenLink('1001372208197', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Full Stack Data Science BootCamp 2.0</td>
+          <td><button id="join-btn-1001920841895" class="generate-btn" onclick="generateAndOpenLink('1001920841895', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Full Stack Java Developer</td>
+          <td><button id="join-btn-1001841130191" class="generate-btn" onclick="generateAndOpenLink('1001841130191', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Full Stack JavaScript Bootcamp 2.0</td>
+          <td><button id="join-btn-1001989014642" class="generate-btn" onclick="generateAndOpenLink('1001989014642', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Industry Ready Data Science Projects</td>
+          <td><button id="join-btn-1001988252242" class="generate-btn" onclick="generateAndOpenLink('1001988252242', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Job Guaranteed Big Data Bootcamp</td>
+          <td><button id="join-btn-1001929542089" class="generate-btn" onclick="generateAndOpenLink('1001929542089', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Job Guaranteed Big Data Bootcamp 2.0</td>
+          <td><button id="join-btn-1001906822224" class="generate-btn" onclick="generateAndOpenLink('1001906822224', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Machine Learning Bootcamp</td>
+          <td><button id="join-btn-1001557556447" class="generate-btn" onclick="generateAndOpenLink('1001557556447', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - System Design with Design Patterns</td>
+          <td><button id="join-btn-1001917889361" class="generate-btn" onclick="generateAndOpenLink('1001917889361', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>iNeuron.ai - Web Automation Using Selenium With Java and Cucumber BDD</td>
+          <td><button id="join-btn-1001973154253" class="generate-btn" onclick="generateAndOpenLink('1001973154253', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Jobaaj Learning</td>
+          <td><button id="join-btn-1001892396833" class="generate-btn" onclick="generateAndOpenLink('1001892396833', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Love Babbar - Web Development Bootcamp</td>
+          <td><button id="join-btn-1001928038547" class="generate-btn" onclick="generateAndOpenLink('1001928038547', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Namaste React</td>
+          <td><button id="join-btn-1001820694467" class="generate-btn" onclick="generateAndOpenLink('1001820694467', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>onlinelearningcenter.in - DE1</td>
+          <td><button id="join-btn-1001643209870" class="generate-btn" onclick="generateAndOpenLink('1001643209870', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Prepinsta Prime</td>
+          <td><button id="join-btn-1001928547762" class="generate-btn" onclick="generateAndOpenLink('1001928547762', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>PW - Parakram GATE 2024 Computer Science Weekday (Hinglish)</td>
+          <td><button id="join-btn-1001723166027" class="generate-btn" onclick="generateAndOpenLink('1001723166027', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>Sanket Singh - Learn Backend In NodeJS From Scratch</td>
+          <td><button id="join-btn-1001890035996" class="generate-btn" onclick="generateAndOpenLink('1001890035996', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>TLE Eliminators 7.0 Batch - Graphs + Trees Summer Bootcamp</td>
+          <td><button id="join-btn-1001936693662" class="generate-btn" onclick="generateAndOpenLink('1001936693662', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>TLE Eliminators 7.0 Batch - Level 1 Course</td>
+          <td><button id="join-btn-1001854406524" class="generate-btn" onclick="generateAndOpenLink('1001854406524', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>TLE Eliminators 7.0 Batch - Level 2 Course</td>
+          <td><button id="join-btn-1001649615137" class="generate-btn" onclick="generateAndOpenLink('1001649615137', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>TLE Eliminators 7.0 Batch - Level 3 Course</td>
+          <td><button id="join-btn-1001897489841" class="generate-btn" onclick="generateAndOpenLink('1001897489841', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>TLE Eliminators 7.0 Batch - Level 4 Course</td>
+          <td><button id="join-btn-1001732763251" class="generate-btn" onclick="generateAndOpenLink('1001732763251', this)">Generate Link</button></td>
+        </tr>
+      
+        <tr>
+          <td>VisionIAS - Regular Foundation Course 2023</td>
+          <td><button id="join-btn-1001921619172" class="generate-btn" onclick="generateAndOpenLink('1001921619172', this)">Generate Link</button></td>
+        </tr>
+      
+        </tbody>
+      </table>
+    </body>
+    </html>
